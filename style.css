@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(7, 7, 8);
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.main{
+    background: url('https://source.unsplash.com/random/1920x1080/?campus,buildings');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow:auto;
+    padding-top: 4rem;
+}
+.main::-webkit-scrollbar{
+    display: none;
+}
+.header{
+    font-size: 4vw;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    /* color: rgb(140, 4, 4); */
+}
+.search{
+    margin-bottom: 3rem;
+}
+.search .input{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 6px 15px;
+    outline: none;
+
+}
+.search .btn{
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 6px 10px;
+    outline: none;
+    color:"white";
+    font-weight: 700;
+    cursor: pointer;
+
+
+
+
+}
+.uol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* overflow: none; */
+    /* margin-top: 40rem; */
+}
+.clg{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 3rem 0;
+    text-transform: uppercase;
+    transition: all ease 0.2s;
+    cursor: pointer;
+
+}
+.clg:hover{
+    font-size: 20.5px;
+}
+
+.dictionary{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 1.2rem;
+    transition: all ease-in-out 0.4s;
+}
+.dictionary:hover{
+    letter-spacing: 5px;
+
+}

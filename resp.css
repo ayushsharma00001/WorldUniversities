@@ -1,0 +1,12 @@
+@media screen and (max-width:678px){
+    .uol{
+        padding: 1rem 1rem;
+    }
+    .header{
+        font-size:4vw ;
+    }
+    .clg{
+        margin: 1rem 0;
+        text-align: center;
+    }
+}
